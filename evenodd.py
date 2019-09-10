@@ -6,4 +6,4 @@ try:
     else:
     	print("odd")
 except ValueError:
-    print("-1")
+    pass

@@ -10,6 +10,6 @@ try:
   else:
     raise IndexError
 except IndexError:
-  pass
+  print("-1")
 except ValueError:
-  pass
+  print("-1")
